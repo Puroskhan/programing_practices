@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shoppingApp';
-  loader:string;
+  loader:string = 'recipes';
   onChangeCompo(feature:string){
    this.loader= feature;
   }

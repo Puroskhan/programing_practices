@@ -24,7 +24,9 @@ recipes:Recipe[] =[
 
   ngOnInit() {
   }
-  recipeDetailsLoad(recipeDetails:Recipe){
-   this.recipesDetailsWasSelected.emit(recipeDetails);
+  recipeDetailsLoad(recipe:Recipe){
+
+
+   this.recipesDetailsWasSelected.emit(recipe);
   }
 }

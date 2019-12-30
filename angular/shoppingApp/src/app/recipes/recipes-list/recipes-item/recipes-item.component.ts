@@ -13,7 +13,9 @@ export class RecipesItemComponent implements OnInit {
 
   ngOnInit() {
   }
+
+
   loadRecpesDetails(){
-   this.recipeDetails.emit();
+  //  this.recipeDetails.emit();
   }
 }
