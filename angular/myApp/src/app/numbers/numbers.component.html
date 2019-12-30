@@ -1,0 +1,9 @@
+<label for="">Add Numbers</label>
+<input type="text" class="form-control" [(ngModel)]="snumber">
+
+<button (click)="addNumber()" class="btn btn-primary"> Add</button>
+
+<div *ngFor="let val of numbersArr; let i = index">
+<!-- <p [innerText]="val"></p> -->
+<p class="myColor" [ngClass]="{myColor: numberType===true }">{{i}} ---{{val}} {{numberType}}<button (click)="removeNumber(i)" class="btn btn-sucess"> remove</button> </p>
+</div>
