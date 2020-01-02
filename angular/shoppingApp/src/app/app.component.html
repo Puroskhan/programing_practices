@@ -1,9 +1,0 @@
-<app-header (feature)="onChangeCompo($event)"></app-header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <app-recipes *ngIf="loader==='recipes'"></app-recipes>
-      <app-shopping-list *ngIf="loader!=='recipes'"></app-shopping-list>
-    </div>
-  </div>
-</div>
