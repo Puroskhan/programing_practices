@@ -6,7 +6,7 @@ import { AccountComponent } from './account/account.component';
 import { NewAccountComponent } from './new-account/new-account.component';
 import { LoggingService } from './logging.service';
 import { AccountService } from './account.service';
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
