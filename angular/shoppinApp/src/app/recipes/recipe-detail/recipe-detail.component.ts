@@ -40,7 +40,7 @@ export class RecipeDetailComponent implements OnInit,OnDestroy {
   onDelete(){
     console.log(this.id);
     this.recipesServices.deleteRecipe(this.id);
-    this.router.navigate(['./recpices']);
+    this.router.navigate(['./recipes']);
     console.log(this.recipe);
   }
   ngOnDestroy(){
